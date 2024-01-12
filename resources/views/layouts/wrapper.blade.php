@@ -20,6 +20,7 @@
     {{-- <title>Patrix, Bootstrap 5 Landing Page</title> --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/fontawesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/costum-style.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -31,7 +32,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="">
-        <img src="{{ asset('assets/images/logo.png') }}" alt="logo image">
+        <img src="{{ asset('assets/images/logoupd.png') }}" alt="logo image">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -137,7 +138,7 @@
   <div class="container mt-5">
     <div class="row text-white justify-content-center mt-3 pb-3">
       <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-        <h5 class="text-capitalize fw-bold">Campany name</h5>
+        <h5 class="text-capitalize fw-bold">Ulampun Datang</h5>
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
         <p class="lh-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
@@ -191,7 +192,7 @@
 </footer>
 
 <!-- BACK TO TOP BUTTON  -->
-<a href="#" class="shadow btn-primary rounded-circle back-to-top">
+<a href="#" class="shadow btn-theme rounded-circle back-to-top">
   <i class="fas fa-chevron-up"></i>
 </a>
    

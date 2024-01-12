@@ -129,7 +129,7 @@
                doloremque autem quibusdam blanditiis harum alias hic accusantium 
                maxime atque ratione magni repellat?
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
             </button>
           </div>
@@ -156,7 +156,7 @@
                doloremque autem quibusdam blanditiis harum alias hic accusantium 
                maxime atque ratione magni repellat?
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
             </button>
           </div>
@@ -173,7 +173,7 @@
                doloremque autem quibusdam blanditiis harum alias hic accusantium 
                maxime atque ratione magni repellat?
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
             </button>
           </div>
@@ -416,10 +416,10 @@
       <!-- FILTER BUTTONS  -->
       <div class="row mt-5 mb-4 g-3 text-center">
         <div class="col-md-12">
-          <button class="btn btn-outline-primary" type="button">All</button>
-          <button class="btn btn-outline-primary" type="button">websites</button>
-          <button class="btn btn-outline-primary" type="button">design</button>
-          <button class="btn btn-outline-primary" type="button">mockup</button>
+          <button class="btn btn-outline-theme" type="button">All</button>
+          <button class="btn btn-outline-theme" type="button">websites</button>
+          <button class="btn btn-outline-theme" type="button">design</button>
+          <button class="btn btn-outline-theme" type="button">mockup</button>
         </div>
       </div>
   
@@ -574,7 +574,7 @@
                 <textarea name="message" placeholder="message" id="message" rows="8" class="shadow form-control form-control-lg"></textarea>
               </div>
               <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
+                <button type="button" class="btn btn-theme rounded-pill pt-3 pb-3">
                   submit
                   <i class="fas fa-paper-plane"></i>
                 </button>
