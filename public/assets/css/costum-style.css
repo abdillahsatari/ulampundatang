@@ -158,3 +158,8 @@ a:hover {
 .footer-bottom__copyright a:hover {
     color: #FF8D0D;
 }
+
+.img-portrait {
+    margin-top: -40%;
+    margin-bottom: -20%;
+}

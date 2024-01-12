@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="@hasSection('description')@yield('description')@else{{'Jasa Pembuatan Website'}}@endif">
+    <meta name="description" content="@hasSection('description')@yield('description')@else{{'Lahan kecil kolektif untuk belajar, bereksplorasi dan bereksperimen dengan Ruang Kota untuk Pertanian.'}}@endif">
     <meta name="author" content="ulampundatang">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
-    <meta name="keyword" content="@hasSection('keywords')@yield('keywords')@else{{'web, design, jasa, pembuatan, website'}}@endif">
+    <meta name="keyword" content="@hasSection('keywords')@yield('keywords')@else{{'pertanian, ruang, kota'}}@endif">
 
     {{-- social share --}}
     <meta property="og:url" content="@yield('ogUrl', '')" />
-    <meta property="og:title" content="@hasSection('title')@yield('title') - Ulampun Datang @else{{'Welcome to Ulampun Datang'}}@endif" />
-    <meta property="og:description" content="@hasSection('description')@yield('description')@else{{'Jasa Pembuatan Website'}}@endif" />
+    <meta property="og:title" content="@hasSection('title')@yield('title') - Ulampun Datang @else{{'Welcome to Ulam pun Datang'}}@endif" />
+    <meta property="og:description" content="@hasSection('description')@yield('description')@else{{'Lahan kecil kolektif untuk belajar, bereksplorasi dan bereksperimen dengan Ruang Kota untuk Pertanian.'}}@endif" />
     <meta property="og:image" content="@yield('ogImage', '')" />
 
-    <title>@hasSection('title')@yield('title') - Ulampun Datang @else{{'Welcome to Ulampun Datang'}}@endif</title>
+    <title>@hasSection('title')@yield('title') - Ulam Pun Datang @else{{'Welcome to Ulam Pun Datang'}}@endif</title>
     
     {{-- <title>Patrix, Bootstrap 5 Landing Page</title> --}}
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
@@ -39,16 +39,15 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq">faq</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">contact</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Promo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Hubungi Kami</a></li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded">
-          +1 728365413
+          +62 811-4490-500
           <span>
             <i class="fas fa-phone-alt"></i>
           </span>
@@ -76,8 +75,8 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">+1 728365413</a>
-          <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
+          <a href="#" class="contact-box__info--title">+62 811-4490-</a>
+          <p class="contact-box__info--subtitle">  Senin-Minggu 10.00 - 22.00 </p>
         </div>
       </div>  
       <!-- CONTENT FOR EMAIL  -->
@@ -92,7 +91,7 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">info@company.com</a>
+          <a href="#" class="contact-box__info--title">ulampundatang@gmail.com</a>
           <p class="contact-box__info--subtitle">Online support</p>
         </div>
       </div>
@@ -109,15 +108,15 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">New York, USA</a>
-          <p class="contact-box__info--subtitle">NY 10012, US</p>
+          <a href="#" class="contact-box__info--title">Makassar, Sulawesi Selatan</a>
+          <p class="contact-box__info--subtitle">Indonesia</p>
         </div>
       </div>
     </div>
   </div>
 
   <!-- START THE SOCIAL MEDIA CONTENT  -->
-  <div class="footer-sm" style="background-color: #212121;">
+  {{-- <div class="footer-sm" style="background-color: #212121;">
     <div class="container">
       <div class="row py-4 text-center text-white">
         <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
@@ -132,7 +131,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> --}}
 
   <!-- START THE CONTENT FOR THE CAMPANY INFO -->
   <div class="container mt-5">
@@ -141,10 +140,11 @@
         <h5 class="text-capitalize fw-bold">Ulampun Datang</h5>
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
         <p class="lh-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab mollitia voluptatem consectetur?
+          Punya pertanyaan ? Punda siap bantu.
+          <br> Kamu cukup memilih menu whatsapp disamping ini dan ceritakan keluh kesahmu..
         </p>
       </div>
-      <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+      {{-- <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
         <h5 class="text-capitalize fw-bold">Products</h5>
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
         <ul class="list-inline campany-list">
@@ -153,25 +153,25 @@
           <li><a href="#">Lorem ipsum</a></li>
           <li><a href="#">Lorem ipsum</a></li>
         </ul>
-      </div>
+      </div> --}}
       <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
         <h5 class="text-capitalize fw-bold">useful links</h5>
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
         <ul class="list-inline campany-list">
-          <li><a href="#"> Your Account</a></li>
-          <li><a href="#">Become an Affiliate</a></li>
-          <li><a href="#">create an account</a></li>
-          <li><a href="#">Help</a></li>
+          <li><a href="#"> Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#produk">Produk</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Promo</a></li>
         </ul>
       </div>
       <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
         <h5 class="text-capitalize fw-bold">contact</h5>
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
         <ul class="list-inline campany-list">
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="https://wa.me/qr/NKH6MVVJDQS3N1">whatsapp</a></li>
+          <li><a href="https://www.instagram.com/ulampundatang?igsh=aWY2dWFkMXpwMjEx">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@ulampundatang?_t=8ix2pnCgC7W&_r=1">Tiktok</a></li>
         </ul>
       </div>
     </div>

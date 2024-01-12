@@ -10,10 +10,9 @@
             <!-- START THE CONTENT FOR THE INTRO  -->
             <div class="col-md-6 intros text-start">
             <h1 class="display-2">
-                <span class="display-2--intro">Hey!, I'm Patrick</span>
+                <span class="display-2--intro">Ulam Pun Datang !</span>
                 <span class="display-2--description lh-base">
-                this is a multi-purpose responsive layout created with bootstrap v5. 
-                (here your can place your description text)
+                  Lahan kecil kolektif untuk belajar, bereksplorasi dan bereksperimen dengan Ruang Kota untuk Pertanian.
                 </span>
             </h1>
             <button type="button" class="rounded-pill btn-rounded">Get in Touch
@@ -22,16 +21,16 @@
             </div>
             <!-- START THE CONTENT FOR THE VIDEO -->
             <div class="col-md-6 intros text-end">
-            <div class="video-box">
-                <img src="{{ asset('assets/images/arts/intro-section-illustration.png') }}" alt="video illutration" class="img-fluid">
-                <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
-                <span>
-                    <i class="fas fa-play-circle"></i>
-                </span>
-                <span class="border-animation border-animation--border-1"></span>
-                <span class="border-animation border-animation--border-2"></span>
-                </a>
-            </div>
+              <div class="video-box">
+                  <img src="{{ asset('assets/images/home/section-1.png') }}" alt="video illutration" class="img-fluid">
+                  <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
+                  <span>
+                      <i class="fas fa-play-circle"></i>
+                  </span>
+                  <span class="border-animation border-animation--border-1"></span>
+                  <span class="border-animation border-animation--border-2"></span>
+                  </a>
+              </div>
             </div>
         </div>
         </div>
@@ -89,10 +88,10 @@
   <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 4 - THE SERVICES  
   ///////////////////////////////////////////////////////////////////////////////////////////////////-->
-  <section id="services" class="services">
+  <section id="about" class="services">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">Our Services</h1>
+        <h1 class="display-3 fw-bold">Tentang Kami</h1>
         <div class="heading-line mb-1"></div>
       </div>
     <!-- START THE DESCRIPTION CONTENT  -->
@@ -100,22 +99,33 @@
         <div class="col-md-6 border-right">
           <div class="bg-white p-3">
             <h2 class="fw-bold text-capitalize text-center">
-              Our Services Range From Initial Design To Deployment Anywhere Anytime
+              Microgreen dicinta, <br> 
+              Ulam Pun Datang!
             </h2>
           </div>
         </div>
         <div class="col-md-6">
           <div class="bg-white p-4 text-start">
             <p class="fw-light">
-              Lorem ipsum dolor sit amet consectetur architecto magni, 
-              dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias. 
-              Tempore ducimus molestiae in dolore enim.
+              Microgreens, sayuran dengan kandungan nutrisi yang melimpah tentu saja akan menawarkan segudang manfat bagi kesehatan untuk kamu dan keluarga tercinta.
+              Setiap microgreen dari kami yang akan siap kamu konsumsi telah ditanam dan dipanen dengan sangat hati-hati dan penuh perhatian. Kami tidak hanya menjamin kesegaran namun juga mendukung pertanian lokal, mengurangi jejak karbon, dan mendukung sistem pangan berkelanjutan.
             </p>
           </div>
         </div>
       </div>
     </div>
-  
+  </section>
+
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                           START SECTION 4 - THE SERVICES  
+  ///////////////////////////////////////////////////////////////////////////////////////////////////-->
+  <section id="produk" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold text-uppercase">Produk</h1>
+        <div class="heading-line"></div>
+        <p class="lead">Produk Unggulan Kami</p>
+      </div>
     <!-- START THE CONTENT FOR THE SERVICES  -->
     <div class="container">
       <!-- START THE MARKETING CONTENT  -->
@@ -123,11 +133,10 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
             <div class="icon d-block fas fa-paper-plane"></div>
-            <h3 class="display-3--title mt-1">Marketing</h3>
+            <h3 class="display-3--title mt-1">Peashoot</h3>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-               doloremque autem quibusdam blanditiis harum alias hic accusantium 
-               maxime atque ratione magni repellat?
+              Microgreen yang kaya akan vitamin A, vitamin C, vitamin K, asam folat, kalsium, besi, dan magnesium
+              Rp.20.000 - Rp.25.000
             </p>
             <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
@@ -136,7 +145,7 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="{{ asset('assets/images/services/service-1.png') }}" alt="marketing illustration" class="img-fluid">
+            <img src="{{ asset('assets/images/home/Peashoot.jpg') }}" alt="marketing illustration" class="img-fluid">
           </div>
         </div>
       </div>
@@ -144,17 +153,16 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
           <div class="services__pic">
-            <img src="{{ asset('assets/images/services/service-2.png') }}" alt="web development illustration" class="img-fluid">
+            <img src="{{ asset('assets/images/home/SunFlower.png') }}" alt="web development illustration" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
             <div class="icon d-block fas fa-code"></div>
-            <h3 class="display-3--title mt-1">web development</h3>
+            <h3 class="display-3--title mt-1">Sun Flower</h3>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-               doloremque autem quibusdam blanditiis harum alias hic accusantium 
-               maxime atque ratione magni repellat?
+              Microgreen yang kaya akan vitamin E, vitamin A, vitamin C, vitamin K, asam folat, selium, dan seng.
+              Rp.20.000 - Rp.25.000
             </p>
             <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
@@ -167,11 +175,10 @@
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
             <div class="icon d-block fas fa-cloud-upload-alt"></div>
-            <h3 class="display-3--title mt-1">cloud hosting</h3>
+            <h3 class="display-3--title mt-1">Red Radish</h3>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-               doloremque autem quibusdam blanditiis harum alias hic accusantium 
-               maxime atque ratione magni repellat?
+              Microgreen yang kaya akan vitamin C, vitamin K, asam folat, kalsium, dan potasium
+              Rp.23.000 - Rp.28.000
             </p>
             <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
               <span><i class="fas fa-arrow-right"></i></span>
@@ -180,7 +187,28 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="{{ asset('assets/images/services/service-3.png') }}" alt="cloud hosting illustration" class="img-fluid">
+            <img src="{{ asset('assets/images/home/RedRadish.jpg') }}" alt="cloud hosting illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <!-- START THE CLOUD HOSTING CONTENT  -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
+          <div class="services__pic">
+            <img src="{{ asset('assets/images/home/Mint.jpg') }}" alt="web development illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+          <div class="services__content">
+            <div class="icon d-block fas fa-code"></div>
+            <h3 class="display-3--title mt-1">Mint</h3>
+            <p class="lh-lg">
+              Mint kaya akan vitamin A, mint juga baik untuk kulit karena mengandung senyawa yang berfungsi untuk memperkuat jaringan kulit
+              Rp.10.000 - Rp.18.000
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
+              <span><i class="fas fa-arrow-right"></i></span>
+            </button>
           </div>
         </div>
       </div>
@@ -196,7 +224,7 @@
       <div class="row text-center text-white">
         <h1 class="display-3 fw-bold">Testimonials</h1>
         <hr style="width: 100px; height: 3px; " class="mx-auto">
-        <p class="lead pt-1">what our clients are saying</p>
+        <p class="lead pt-1">Katanya Microgreen kami itu..</p>
       </div>
   
       <!-- START THE CAROUSEL CONTENT  -->
@@ -209,8 +237,7 @@
               <div class="testimonials__card">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                  Masih fresh, padahal perjalanan 3 hari. packaging dan microgreen dari ulam pun datang terbaik pokoknya
                   <i class="fas fa-quote-right"></i>
                   <div class="ratings p-1">
                     <i class="fas fa-star"></i>
@@ -227,8 +254,8 @@
               </div>
               <!-- client name & role  -->
               <div class="testimonials__name">
-                <h3>Patrick Muriungi</h3>
-                <p class="fw-light">CEO & founder</p>
+                <h3>Ramadhian</h3>
+                {{-- <p class="fw-light">CEO & founder</p> --}}
               </div>
             </div>     
             <!-- CAROUSEL ITEM 2 -->
@@ -237,8 +264,7 @@
               <div class="testimonials__card">
                 <p class="lh-lg">
                   <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae. Distinctio.
+                  Ngak nyesel jadiin Ulam Pun Datang supllier buat store, microgreen tetap fresh. mantap
                   <i class="fas fa-quote-right"></i>
                   <div class="ratings p-1">
                     <i class="fas fa-star"></i>
@@ -251,16 +277,16 @@
               </div>
               <!-- client picture  -->
               <div class="testimonials__picture">
-                <img src="{{ asset('assets/images/testimonials/client-2.jpg') }}" alt="client-2 picture" class="rounded-circle img-fluid">
+                <img src="{{ asset('assets/images/testimonials/client-4.jpg') }}" alt="client-2 picture" class="rounded-circle img-fluid">
               </div>
               <!-- client name & role  -->
               <div class="testimonials__name">
-                <h3>Joy Marete</h3>
-                <p class="fw-light">Finance Manager</p>
+                <h3>Adnhika</h3>
+                {{-- <p class="fw-light">Finance Manager</p> --}}
               </div>
             </div>     
             <!-- CAROUSEL ITEM 3 -->
-            <div class="carousel-item">
+            {{-- <div class="carousel-item">
               <!-- testimonials card  -->
               <div class="testimonials__card">
                 <p class="lh-lg">
@@ -286,9 +312,9 @@
                 <h3>ClaireBelle Zawadi</h3>
                 <p class="fw-light">Global brand manager</p>
               </div>
-            </div>     
+            </div>      --}}
             <!-- CAROUSEL ITEM 4 -->
-            <div class="carousel-item">
+            {{-- <div class="carousel-item">
               <!-- testimonials card  -->
               <div class="testimonials__card">
                 <p class="lh-lg">
@@ -314,7 +340,7 @@
                 <h3>Uhuru Kenyatta</h3>
                 <p class="fw-light">C.E.O & Founder</p>
               </div>
-            </div>     
+            </div>      --}}
           </div>
           <div class="text-center">
             <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
@@ -336,7 +362,7 @@
       <div class="row text-center">
         <h1 class="display-3 fw-bold text-uppercase">faq</h1>
         <div class="heading-line"></div>
-        <p class="lead">frequently asked questions, get knowledge befere hand</p>
+        <p class="lead">frequently asked questions, kenali Microgreen sedikit lebih jauh</p>
       </div>
       <!-- ACCORDION CONTENT  -->
       <div class="row mt-5">
@@ -346,12 +372,12 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  What are the main features?
+                  Microgreen, apa itu ?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>Microgreen</strong> merupakan sebutan untuk jenis tanaman-tanaman sayur yang sudah umum, tetapi jenis tanaman ini dipanen dan dikonsumsi saat masih sangat muda pada fase bibit.
                 </div>
               </div>
             </div>
@@ -359,12 +385,12 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  do i have to pay again after trial
+                  Apasih manfaat microgreen ?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <strong>Microgreen</strong> mengandung lebih banyak vitamin, mineral, dan beta-karoten dibandingkan sayuran itu sendiri, dan daun tanaman yang baru tumbuh  sangat kaya akan minyak nabati dan protein yang sudah habis digunakan pada sayuran dewasa
                 </div>
               </div>
             </div>
@@ -372,12 +398,12 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              How can I get started after trial?
+                  Kenapa harus microgreen ?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  Konsumsi microgreen ternyata dapat mengurangi risiko penyakit Alzheimer selain mencegah penyakit jantung. Kandungan polifenol di dalam sayuran ini adalah sumber manfaatnya. Memang, mengkonsumsi makanan yang kaya antioksidan dapat menurunkan risiko Alzheimer.
                 </div>
               </div>
             </div>
@@ -385,12 +411,12 @@
             <div class="accordion-item shadow mb-3">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Can I be refunded if am not satisfied?
+                  Mau beli microgreen, tapi dimana ?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  Buat kamu yang mau mulai mengkonsumsi microgreen, kamu bisa beli microgreen yang terjamin fresh hanya di store Ulam Pun Datang ya. Bisa offline, bisa online.
                 </div>
               </div>
             </div>
@@ -404,7 +430,7 @@
                                 START SECTION 7 - THE PORTFOLIO  
   //////////////////////////////////////////////////////////////////////////////////////////////////////-->
   
-  <section id="portfolio" class="portfolio">
+  {{-- <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="row text-center mt-5">
         <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
@@ -526,7 +552,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> --}}
   
   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
                 START SECTION 8 - GET STARTED  
@@ -534,10 +560,10 @@
   <section id="contact" class="get-started">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
+        <h1 class="display-3 fw-bold text-capitalize">PETIK EMAS</h1>
         <div class="heading-line"></div>
         <p class="lh-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+          Daftarin dirimu sekarang untuk mengikuti program ini
         </p>
       </div>
   
@@ -545,21 +571,24 @@
       <div class="row text-white">
         <div class="col-12 col-lg-6 gradient shadow p-3">
           <div class="cta-info w-100">
-            <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
-            <p class="lh-lg">
+            <h3 class="display-3--brief">DAPATKAN HADIAH LOGAM MULIA TANPA DI UNDI
+              DARI PEMBELIAN MICROGREEN DI
+              ULAM PUN DATANG!</h3>
+            {{-- <p class="lh-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto sint ipsam dolore tempora facere laboriosam corrupti!
-            </p>
-            <h3 class="display-3--brief">What will be the next step?</h3>
+            </p> --}}
+            {{-- <h3 class="display-3--brief">What will be the next step?</h3>
             <ul class="cta-info__list">
               <li>We'll prepare the proposal.</li>
               <li>we'll discuss it together.</li>
               <li>let's start the discussion.</li>
-            </ul>
+            </ul> --}}
+            <img src="{{ asset('assets/images/home/petik_emas.png') }}" alt="video illutration" class="img-fluid img-portrait">
           </div>
         </div>
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2">
-            <h4 class="display-3--title mb-5">start your project</h4>
+            <h4 class="display-3--title mb-5">Hubungi Kami</h4>
             <form action="#" class="row">
               <div class="col-lg-6 col-md mb-3">
                 <input type="text" placeholder="First Name" id="inputFirstName" class="shadow form-control form-control-lg">
