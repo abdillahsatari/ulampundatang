@@ -17,9 +17,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // =======================================================
 // langsung ke view
@@ -41,7 +41,7 @@ Route::get('/', function () {
 // Route::get('homepage', [HomepageController::class, 'index']);
 
 Route::controller(HomepageController::class)->group(function(){
-    Route::get('homepage', 'index');
+    Route::get('/', 'index');
     Route::get('article', 'article');
     Route::get('about', 'about');
     Route::get('service', 'service');
