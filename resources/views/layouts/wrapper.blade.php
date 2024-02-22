@@ -47,7 +47,7 @@
           <li class="nav-item"><a class="nav-link" href="#contact">Hubungi Kami</a></li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded">
-          +62 811-4490-500
+          <a href="https://api.whatsapp.com/send?phone=628114490500" style="text-decoration: none;color: inherit;">+62 811-4490-500</a>
           <span>
             <i class="fas fa-phone-alt"></i>
           </span>
@@ -169,7 +169,7 @@
         <h5 class="text-capitalize fw-bold">contact</h5>
         <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
         <ul class="list-inline campany-list">
-          <li><a href="https://wa.me/qr/NKH6MVVJDQS3N1">whatsapp</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=628114490500">whatsapp</a></li>
           <li><a href="https://www.instagram.com/ulampundatang?igsh=aWY2dWFkMXpwMjEx">Instagram</a></li>
           <li><a href="https://www.tiktok.com/@ulampundatang?_t=8ix2pnCgC7W&_r=1">Tiktok</a></li>
         </ul>

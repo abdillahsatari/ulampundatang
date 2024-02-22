@@ -15,7 +15,8 @@
                   Lahan kecil kolektif untuk belajar, bereksplorasi dan bereksperimen dengan Ruang Kota untuk Pertanian.
                 </span>
             </h1>
-            <button type="button" class="rounded-pill btn-rounded">Get in Touch
+            <button type="button" class="rounded-pill btn-rounded">
+              <a href="https://api.whatsapp.com/send?phone=628114490500" style="text-decoration: none;color: inherit;">Get in Touch</a>
                 <span><i class="fas fa-arrow-right"></i></span>
             </button>
             </div>
