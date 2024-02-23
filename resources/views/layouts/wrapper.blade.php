@@ -29,9 +29,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon/favicon-32x32.png') }}">
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/favicon/favicon-96x96.png') }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon/favicon-16x16.png') }}">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="{{ asset('assets/images/favicon/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{ asset('assets/images/favicon/ms-icon-144x144.png') }}">
     <meta name="theme-color" content="#ffffff">
 
     <title>@hasSection('title')@yield('title') - Ulam Pun Datang @else{{'Welcome to Ulam Pun Datang'}}@endif</title>
@@ -61,9 +61,9 @@
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Beranda</a></li>
           <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
           <li class="nav-item"><a class="nav-link" href="#produk">Produk</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials">Promo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimoni</a></li>
           <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Hubungi Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Promo</a></li>
         </ul>
         <a href="https://api.whatsapp.com/send?phone=628114490500" style="text-decoration: none;color: inherit;">
           <button type="button" class="rounded-pill btn-rounded">

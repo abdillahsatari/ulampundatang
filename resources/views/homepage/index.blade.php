@@ -257,11 +257,11 @@
               </div>
               <!-- client picture  -->
               <div class="testimonials__picture">
-                <img src="{{ asset('assets/images/testimonials/client-1.jpg') }}" alt="client-1 picture" class="rounded-circle img-fluid">
+                <img src="{{ asset('assets/images/testimonials/naomi.jpg') }}" alt="client-1 picture" class="rounded-circle img-fluid">
               </div>
               <!-- client name & role  -->
               <div class="testimonials__name">
-                <h3>Ramadhian</h3>
+                <h3>Alika</h3>
                 {{-- <p class="fw-light">CEO & founder</p> --}}
               </div>
             </div>     
@@ -284,11 +284,11 @@
               </div>
               <!-- client picture  -->
               <div class="testimonials__picture">
-                <img src="{{ asset('assets/images/testimonials/client-4.jpg') }}" alt="client-2 picture" class="rounded-circle img-fluid">
+                <img src="{{ asset('assets/images/testimonials/bagas.jpg') }}" alt="client-2 picture" class="rounded-circle img-fluid">
               </div>
               <!-- client name & role  -->
               <div class="testimonials__name">
-                <h3>Adnhika</h3>
+                <h3>Bagas</h3>
                 {{-- <p class="fw-light">Finance Manager</p> --}}
               </div>
             </div>     
