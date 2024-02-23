@@ -15,6 +15,25 @@
     <meta property="og:description" content="@hasSection('description')@yield('description')@else{{'Lahan kecil kolektif untuk belajar, bereksplorasi dan bereksperimen dengan Ruang Kota untuk Pertanian.'}}@endif" />
     <meta property="og:image" content="@yield('ogImage', '')" />
 
+    {{-- favicons --}}
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/favicon/apple-icon-57x57.png') }}">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/images/favicon/apple-icon-60x60.png') }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/favicon/apple-icon-72x72.png') }}">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/favicon/apple-icon-76x76.png') }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/favicon/apple-icon-114x114.png') }}">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/images/favicon/apple-icon-120x120.png') }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/images/favicon/apple-icon-144x144.png') }}">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/images/favicon/apple-icon-152x152.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/favicon/apple-icon-180x180.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{ asset('assets/images/favicon/android-icon-192x192.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/favicon/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/favicon/favicon-96x96.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/images/favicon/favicon-16x16.png') }}">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <title>@hasSection('title')@yield('title') - Ulam Pun Datang @else{{'Welcome to Ulam Pun Datang'}}@endif</title>
     
     {{-- <title>Patrix, Bootstrap 5 Landing Page</title> --}}
@@ -46,12 +65,14 @@
           <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Hubungi Kami</a></li>
         </ul>
-        <button type="button" class="rounded-pill btn-rounded">
-          <a href="https://api.whatsapp.com/send?phone=628114490500" style="text-decoration: none;color: inherit;">+62 811-4490-500</a>
-          <span>
-            <i class="fas fa-phone-alt"></i>
-          </span>
-        </button>
+        <a href="https://api.whatsapp.com/send?phone=628114490500" style="text-decoration: none;color: inherit;">
+          <button type="button" class="rounded-pill btn-rounded">
+            +62 811-4490-500
+            <span>
+              <i class="fas fa-phone-alt"></i>
+            </span>
+          </button>
+        </a>
       </div>
     </div>
   </nav>
@@ -75,7 +96,7 @@
           </svg>
         </div>
         <div class="contact-box__info">
-          <a href="#" class="contact-box__info--title">+62 811-4490-</a>
+          <a href="https://api.whatsapp.com/send?phone=628114490500" class="contact-box__info--title">+62 811-4490-500</a>
           <p class="contact-box__info--subtitle">  Senin-Minggu 10.00 - 22.00 </p>
         </div>
       </div>  
@@ -201,7 +222,7 @@
     <script type="text/javascript">
       const lightbox = GLightbox({
         'touchNavigation': true,
-        'href': 'https://www.youtube.com/watch?v=J9lS14nM1xg',
+        'href': 'https://www.youtube.com/watch?v=_b1R9tE6U8U&ab_channel=UlamPunDatang',
         'type': 'video',
         'source': 'youtube', //vimeo, youtube or local
         'width': 900,

@@ -15,10 +15,12 @@
                   Lahan kecil kolektif untuk belajar, bereksplorasi dan bereksperimen dengan Ruang Kota untuk Pertanian.
                 </span>
             </h1>
-            <button type="button" class="rounded-pill btn-rounded">
-              <a href="https://api.whatsapp.com/send?phone=628114490500" style="text-decoration: none;color: inherit;">Get in Touch</a>
+            <a href="https://api.whatsapp.com/send?phone=628114490500" style="text-decoration: none;color: inherit;">
+              <button type="button" class="rounded-pill btn-rounded">
+                Get in Touch
                 <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+              </button>
+            </a>
             </div>
             <!-- START THE CONTENT FOR THE VIDEO -->
             <div class="col-md-6 intros text-end">
@@ -45,14 +47,14 @@
     <section id="campanies" class="campanies">
       <div class="container">
         <div class="row text-center">
-          <h4 class="fw-bold lead mb-3">Trusted by campanies</h4>
+          <h4 class="fw-bold lead mb-3">Trusted by campanies Like</h4>
           <div class="heading-line mb-5"></div>
         </div>
       </div>
       <!-- START THE CAMPANIES CONTENT  -->
       <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-lg-2">
+        <div class="row align-items-center justify-content-center ">
+          {{-- <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
               <img src="{{ asset('assets/images/campanies/campany-1.png') }}" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
             </div>
@@ -61,13 +63,13 @@
             <div class="campanies__logo-box shadow-sm">
               <img src="{{ asset('assets/images/campanies/campany-2.png') }}" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
             </div>
-          </div>
+          </div> --}}
           <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
               <img src="{{ asset('assets/images/campanies/campany-3.png') }}" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
             </div>
           </div>
-          <div class="col-md-4 col-lg-2">
+          {{-- <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
               <img src="{{ asset('assets/images/campanies/campany-4.png') }}" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
             </div>
@@ -76,10 +78,10 @@
             <div class="campanies__logo-box shadow-sm">
               <img src="{{ asset('assets/images/campanies/campany-5.png') }}" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
             </div>
-          </div>
+          </div> --}}
           <div class="col-md-4 col-lg-2">
             <div class="campanies__logo-box shadow-sm">
-              <img src="{{ asset('assets/images/campanies/campany-6.png') }}" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+              <img src="{{ asset('assets/images/campanies/campany-8.png') }}" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
             </div>
           </div>
         </div>
@@ -137,16 +139,17 @@
             <h3 class="display-3--title mt-1">Peashoot</h3>
             <p class="lh-lg">
               Microgreen yang kaya akan vitamin A, vitamin C, vitamin K, asam folat, kalsium, besi, dan magnesium
-              Rp.20.000 - Rp.25.000
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+            <a href="https://shope.ee/3ffeKpML97" style="text-decoration: none;color: inherit;">
+              <button type="button" class="rounded-pill btn-rounded border-theme">Pesan Sekarang!
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </a>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="{{ asset('assets/images/home/Peashoot.jpg') }}" alt="marketing illustration" class="img-fluid">
+            <img src="{{ asset('assets/images/home/Peashoot2.png') }}" alt="marketing illustration" class="img-fluid">
           </div>
         </div>
       </div>
@@ -154,7 +157,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
           <div class="services__pic">
-            <img src="{{ asset('assets/images/home/SunFlower.png') }}" alt="web development illustration" class="img-fluid">
+            <img src="{{ asset('assets/images/home/SunFlower2.png') }}" alt="web development illustration" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -163,11 +166,12 @@
             <h3 class="display-3--title mt-1">Sun Flower</h3>
             <p class="lh-lg">
               Microgreen yang kaya akan vitamin E, vitamin A, vitamin C, vitamin K, asam folat, selium, dan seng.
-              Rp.20.000 - Rp.25.000
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+            <a href="https://shope.ee/4prbiWKPSr" style="text-decoration: none;color: inherit;">
+              <button type="button" class="rounded-pill btn-rounded border-theme">Pesan Sekarang!
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -179,16 +183,17 @@
             <h3 class="display-3--title mt-1">Red Radish</h3>
             <p class="lh-lg">
               Microgreen yang kaya akan vitamin C, vitamin K, asam folat, kalsium, dan potasium
-              Rp.23.000 - Rp.28.000
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+            <a href="https://shope.ee/7UsMtm5uNU" style="text-decoration: none;color: inherit;">
+              <button type="button" class="rounded-pill btn-rounded border-theme">Pesan Sekarang!
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </a>
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="{{ asset('assets/images/home/RedRadish.jpg') }}" alt="cloud hosting illustration" class="img-fluid">
+            <img src="{{ asset('assets/images/home/RedRadish2.png') }}" alt="cloud hosting illustration" class="img-fluid">
           </div>
         </div>
       </div>
@@ -196,7 +201,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
           <div class="services__pic">
-            <img src="{{ asset('assets/images/home/Mint.jpg') }}" alt="web development illustration" class="img-fluid">
+            <img src="{{ asset('assets/images/home/Mint2.png') }}" alt="web development illustration" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
@@ -205,11 +210,12 @@
             <h3 class="display-3--title mt-1">Mint</h3>
             <p class="lh-lg">
               Mint kaya akan vitamin A, mint juga baik untuk kulit karena mengandung senyawa yang berfungsi untuk memperkuat jaringan kulit
-              Rp.10.000 - Rp.18.000
             </p>
-            <button type="button" class="rounded-pill btn-rounded border-theme">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button>
+            <a href="#" style="text-decoration: none;color: inherit;">
+              <button type="button" class="rounded-pill btn-rounded border-theme">Pesan Sekarang!
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </a>
           </div>
         </div>
       </div>
